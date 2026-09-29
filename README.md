@@ -16,7 +16,7 @@ For command-line use in PowerShell:
 .\Clean-Gift.ps1 .\unit-*.txt
 ```
 
-The batch launcher uses Windows PowerShell with a process-scoped execution-policy bypass so a downloaded, unsigned script can run. Review the two scripts before running them. The script reads and writes local text files only.
+The batch launcher uses Windows PowerShell with a process-scoped execution-policy bypass so a downloaded, unsigned script can run. Review the two scripts before running them. The script reads and writes local text files only. It has been used successfully with Windows PowerShell 5.1 and tested with PowerShell 7.
 
 ## What it changes
 
@@ -40,3 +40,7 @@ The test uses temporary synthetic questions; it does not need Moodle or Respondu
 ## Development
 
 I identified the export cleanup needed for my classroom workflow and tested the behavior. The implementation was developed with AI assistance and reviewed against representative GIFT cases.
+
+## License
+
+Released under the [MIT License](LICENSE).
